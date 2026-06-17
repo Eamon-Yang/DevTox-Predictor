@@ -25,7 +25,7 @@ from pubchem_utils import compute_raw_pubchem_fingerprint
 # ─────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Developmental Toxicity Prediction",
-    page_icon="💎",
+    page_icon="🕒",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -47,7 +47,7 @@ try:
         f'width="64" height="64" style="object-fit:contain;">'
     )
 except FileNotFoundError:
-    HERO_ICON_HTML = "💎"  # fallback only if body.svg is missing
+    HERO_ICON_HTML = "🕒"  # fallback only if body.svg is missing
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Global CSS
