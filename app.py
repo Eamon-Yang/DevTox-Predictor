@@ -67,6 +67,9 @@ header[data-testid="stHeader"] {
 .block-container {
     padding: 2.5rem 3.5rem 2rem 3.5rem !important;
     max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: max-width 0.3s ease;
 }
 
 /* ── Sidebar ─────────────────────────────────────────────────────────────── */
