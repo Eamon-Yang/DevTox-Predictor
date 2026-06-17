@@ -55,7 +55,12 @@ except FileNotFoundError:
 st.markdown("""
 <style>
 /* ── Reset ───────────────────────────────────────────────────────────────── */
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
+
+header[data-testid="stHeader"] {
+    background: transparent !important;
+    height: 3rem !important;
+}
 
 [data-testid="stAppViewContainer"] { background: #f5f7fa; }
 
